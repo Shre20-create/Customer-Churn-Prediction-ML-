@@ -36,7 +36,7 @@ This project predicts which customers are likely to churn using machine learning
 - Interactive Streamlit app with live SHAP force plots
 
 ## Dataset
-Telco Customer Churn dataset from Kaggle: [Link](https://www.kaggle.com/blastchar/telco-customer-churn)
+Telco Customer Churn dataset 
 
 ## How to Run
 
@@ -45,8 +45,6 @@ Telco Customer Churn dataset from Kaggle: [Link](https://www.kaggle.com/blastcha
 pip install -r requirements.txt
 2. Run Jupyter Notebook to train the model:
 jupyter notebook notebooks/churn_notebook.ipynb
-3. Run Streamlit app:
-streamlit run apps/churn_app_force.py
 pandas
 numpy
 scikit-learn
@@ -54,5 +52,4 @@ xgboost
 shap
 matplotlib
 seaborn
-streamlit
 joblib
